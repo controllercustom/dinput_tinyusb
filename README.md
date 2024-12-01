@@ -1,11 +1,13 @@
 # Arduino TinyUSB DInput Gamepad Controller for Xbox Adaptive Controller
 
-This has only been tested on a Raspberry Pi Pico board. But it should work
-on other RP2040 boards. And with some changes it should work on other boards
-supported by the Adafruit TinyUSB library such as SAMD21/SAMD51, nRF52840,
-etc.
+This has only been tested on a Raspberry Pi Pico board and a Raspberry Pi Pico
+W board. But it should work on other RP2040 boards. And with some changes it
+should work on other boards supported by the Adafruit TinyUSB library such as
+SAMD21/SAMD51, nRF52840, etc.
 
 For Arduino Leonardo, Pro Micro, and Micro boards see https://github.com/controllercustom/dinput_pluggable
+
+For ESP32-S3 boards see https://github.com/controllercustom/dinput_ESP32
 
 The gamepad has the following controls.
 
