@@ -1,15 +1,6 @@
 # Arduino TinyUSB DInput Gamepad Controller for Xbox Adaptive Controller
 
-This has only been tested on a Raspberry Pi Pico board and a Raspberry Pi Pico
-W board. But it should work on other RP2040 boards. And with some changes it
-should work on other boards supported by the Adafruit TinyUSB library such as
-SAMD21/SAMD51, nRF52840, etc.
-
-For Arduino Leonardo, Pro Micro, and Micro boards see https://github.com/controllercustom/dinput_pluggable
-
-For ESP32-S3 boards see https://github.com/controllercustom/dinput_ESP32
-
-The gamepad has the following controls.
+The USB HID DInput gamepad has the following controls.
 
 |Control |Description
 |--------|---------------
@@ -27,7 +18,22 @@ The buttons map to XAC buttons.
 
 The XAC firmware must be updated to the June 2024 version or newer for all
 features to work. Use the Xbox Accessory app to update the firmware. The app
-runs on Xbox console and Windows.
+runs on Xbox console and Windows. On Windows, install the free app from the
+Microsoft Store.
+
+This has been tested on the following boards.
+
+* Raspberry Pi Pico
+* Raspberry Pi Pico W
+* Raspberry Pi Pico 2W
+
+But it should work on other RP2040 boards. And with some changes it should work
+on other boards supported by the Adafruit TinyUSB library such as
+SAMD21/SAMD51, nRF52840, etc.
+
+For Arduino Leonardo, Pro Micro, and Micro boards see https://github.com/controllercustom/dinput_pluggable
+
+For ESP32-S3 boards see https://github.com/controllercustom/dinput_ESP32
 
 Install this library by downloading a zip file from this repo. Use the IDE
 "Add .ZIP library" option.
